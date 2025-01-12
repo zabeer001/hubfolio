@@ -14,20 +14,20 @@ class BlogController extends Controller
     public function index()
     {
         $blogs = Blog::with(['author', 'categories'])->latest()->paginate(10);
-        return view('blogs.index', compact('blogs'));
+        return view('admin.blogs.index', compact('blogs'));
     }
 
     public function show($id)
     {
         $blog = Blog::with(['author', 'categories'])->findOrFail($id);
-        return view('blogs.show', compact('blog'));
+        return view('admin.blogs.show', compact('blog'));
     }
 
     public function create()
     {
         $authors = Author::all();
         $categories = Category::all();
-        return view('blogs.create', compact('authors', 'categories'));
+        return view('admin.blogs.create', compact('authors', 'categories'));
     }
 
     public function store(Request $request)
@@ -51,7 +51,7 @@ class BlogController extends Controller
 
         $blog->categories()->sync($request->category_ids);
 
-        return redirect()->route('blogs.index');
+        return redirect()->route('admin.blogs.index');
     }
 }
 

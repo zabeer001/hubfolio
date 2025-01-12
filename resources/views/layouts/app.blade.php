@@ -7,10 +7,7 @@
 
     <title>{{ config('app.name', 'Laravel') }}</title>
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Add any other CSS or JS libraries you want here -->
+    
 </head>
 <body>
 
@@ -38,7 +35,5 @@
         <p>&copy; 2025 BlogApp. All rights reserved.</p>
     </footer>
 
-    <!-- Bootstrap JS (for responsive behavior) -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
