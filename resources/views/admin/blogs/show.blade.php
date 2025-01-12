@@ -1,6 +1,6 @@
 <!-- resources/views/blogs/show.blade.php -->
 
-@extends('layouts.app')
+@extends('layouts.backend.master')
 
 @section('content')
     <div class="container">
