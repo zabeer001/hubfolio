@@ -22,13 +22,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
         rel="stylesheet">
 
-    <!-- Plugins -->
-    <link rel="stylesheet" href="../common/css/plugins.css">
+    <!-- Plugins CSS -->
 
-    <!-- Core Style Css -->
-    <link rel="stylesheet" href="../common/css/common_style.css">
-    <link rel="stylesheet" href="assets/css/home2-style.css">
+    <link href="{{ asset('assets/frontend/common/css/plugins.css') }}" rel="stylesheet">
 
+    <!-- Core Style CSS -->
+    <link href="{{ asset('assets/frontend/common/css/common_style.css') }}" rel="stylesheet">
+
+    <!-- Custom Home Style -->
+    <link href="{{ asset('assets/frontend/wk_pages/assets/css/home2-style.css') }}" rel="stylesheet">
 </head>
 
 <body>
@@ -136,9 +138,11 @@
                         <img src="assets/imgs/wk.pages-logo-white.svg" alt="" style="width: 75px;">
                     </div>
                     <div class="social-icon mt-40">
-                        <a href="https://www.facebook.com/profile.php?id=61567880623368"> <i class="fab fa-facebook-f"></i> </a>
+                        <a href="https://www.facebook.com/profile.php?id=61567880623368"> <i
+                                class="fab fa-facebook-f"></i> </a>
                         <a href="#"> <i class="fab fa-linkedin-in"></i> </a>
-                        <a href="https://www.instagram.com/wk.pages/profilecard/?igsh=a3dmZ3p4Z3J0bHU5"> <i class="fab fa-instagram"></i> </a>
+                        <a href="https://www.instagram.com/wk.pages/profilecard/?igsh=a3dmZ3p4Z3J0bHU5"> <i
+                                class="fab fa-instagram"></i> </a>
                     </div>
                     <div class="item mt-10">
                         <h5><a href="#0">vkachmar@outlook.com</a></h5>
@@ -172,8 +176,11 @@
                             </div>
                             <div class="col-lg-5">
                                 <div class="text md-mb50">
-                                    <p>Based in Warsaw, we are a creative agency specializing in stunning websites, eCommerce platforms, portfolios, logos, banners, and complete UI/UX designs. Let us bring your vision to life with unique, high-quality solutions!</p>
-                                    <a href="../inner_pages/contact.html" class="butn butn-md butn-bord butn-rounded mt-40">
+                                    <p>Based in Warsaw, we are a creative agency specializing in stunning websites,
+                                        eCommerce platforms, portfolios, logos, banners, and complete UI/UX designs. Let
+                                        us bring your vision to life with unique, high-quality solutions!</p>
+                                    <a href="../inner_pages/contact.html"
+                                        class="butn butn-md butn-bord butn-rounded mt-40">
                                         <div class="d-flex align-items-center">
                                             <span>Learn More</span>
                                             <span class="icon ml-10">
@@ -250,8 +257,11 @@
                                     <div class="row justify-content-between">
                                         <div class="col-lg-7">
                                             <div class="cont">
-                                                <h4>We help businesses enhance their value through custom web design, website development, and UI/UX design for Instagram and Facebook.</h4>
-                                                <a href="../inner_pages/about.html" class="butn butn-md butn-bg butn-rounded mt-40">
+                                                <h4>We help businesses enhance their value through custom web design,
+                                                    website development, and UI/UX design for Instagram and Facebook.
+                                                </h4>
+                                                <a href="../inner_pages/about.html"
+                                                    class="butn butn-md butn-bg butn-rounded mt-40">
                                                     <div class="d-flex align-items-center">
                                                         <span>More About Us</span>
                                                         <span class="icon ml-10">
@@ -279,7 +289,8 @@
                                     <h2>Featured <span>Works</span></h2>
                                 </div>
                                 <div class="ml-auto">
-                                    <a href="../inner_pages/portfolio-gallery.html" class="butn butn-md butn-bord butn-rounded">
+                                    <a href="../inner_pages/portfolio-gallery.html"
+                                        class="butn butn-md butn-bord butn-rounded">
                                         <div class="d-flex align-items-center">
                                             <span>See All Projects</span>
                                             <span class="icon ml-10">
@@ -443,7 +454,7 @@
                 <section class="box-dark">
                     <div class="container box">
                         <div class="layers"></div>
-                
+
                         <!-- ==================== Start Testimonials ==================== -->
                         <div class="testimonials-ds">
                             <div class="row">
@@ -463,12 +474,18 @@
                                             <div class="swiper-slide">
                                                 <div class="item">
                                                     <div class="text">
-                                                        <h4>“wk.pages has an exceptional ability to bring creative UI/UX designs to life. Their attention to detail and innovative approach helped elevate our online presence. A passionate, professional, and highly creative team. Highly recommended!”</h4>
+                                                        <h4>“wk.pages has an exceptional ability to bring creative UI/UX
+                                                            designs to life. Their attention to detail and innovative
+                                                            approach helped elevate our online presence. A passionate,
+                                                            professional, and highly creative team. Highly recommended!”
+                                                        </h4>
                                                     </div>
-                                                    <div class="info d-flex align-items-center mt-40 pt-30 bord-thin-top-light">
+                                                    <div
+                                                        class="info d-flex align-items-center mt-40 pt-30 bord-thin-top-light">
                                                         <div>
                                                             <div class="img-author">
-                                                                <img src="assets/imgs/testim/avatar1.jpg" alt="">
+                                                                <img src="assets/imgs/testim/avatar1.jpg"
+                                                                    alt="">
                                                             </div>
                                                         </div>
                                                         <div class="info-text">
@@ -481,12 +498,17 @@
                                             <div class="swiper-slide">
                                                 <div class="item">
                                                     <div class="text">
-                                                        <h4>“Working with wk.pages has been a game changer for our brand. Their team took our ideas and turned them into a sleek, user-friendly website that perfectly aligns with our business goals.”</h4>
+                                                        <h4>“Working with wk.pages has been a game changer for our
+                                                            brand. Their team took our ideas and turned them into a
+                                                            sleek, user-friendly website that perfectly aligns with our
+                                                            business goals.”</h4>
                                                     </div>
-                                                    <div class="info d-flex align-items-center mt-40 pt-30 bord-thin-top-light">
+                                                    <div
+                                                        class="info d-flex align-items-center mt-40 pt-30 bord-thin-top-light">
                                                         <div>
                                                             <div class="img-author">
-                                                                <img src="assets/imgs/testim/avatar2.jpg" alt="">
+                                                                <img src="assets/imgs/testim/avatar2.jpg"
+                                                                    alt="">
                                                             </div>
                                                         </div>
                                                         <div class="info-text">
@@ -499,12 +521,17 @@
                                             <div class="swiper-slide">
                                                 <div class="item">
                                                     <div class="text">
-                                                        <h4>“The team at wk.pages took our online presence to the next level with their exceptional design and development skills. Their expertise in UI/UX is unmatched, and we couldn’t be happier with the results.”</h4>
+                                                        <h4>“The team at wk.pages took our online presence to the next
+                                                            level with their exceptional design and development skills.
+                                                            Their expertise in UI/UX is unmatched, and we couldn’t be
+                                                            happier with the results.”</h4>
                                                     </div>
-                                                    <div class="info d-flex align-items-center mt-40 pt-30 bord-thin-top-light">
+                                                    <div
+                                                        class="info d-flex align-items-center mt-40 pt-30 bord-thin-top-light">
                                                         <div>
                                                             <div class="img-author">
-                                                                <img src="assets/imgs/testim/avatar3.jpg" alt="">
+                                                                <img src="assets/imgs/testim/avatar3.jpg"
+                                                                    alt="">
                                                             </div>
                                                         </div>
                                                         <div class="info-text">
@@ -532,166 +559,171 @@
 
                 <section class="pricing-ds section-padding">
                     <div class="container">
-                      <div class="sec-head mb-10">
-                        <h2>Our <span> Prices</span></h2>
-                        <div class="d-flex align-items-center mt-50">
-                          <div class="text">
-                            <p>Clear, straightforward plans tailored to your needs. <br> Choose a plan and kick-start now.</p>
-                          </div>
+                        <div class="sec-head mb-10">
+                            <h2>Our <span> Prices</span></h2>
+                            <div class="d-flex align-items-center mt-50">
+                                <div class="text">
+                                    <p>Clear, straightforward plans tailored to your needs. <br> Choose a plan and
+                                        kick-start now.</p>
+                                </div>
+                            </div>
                         </div>
-                      </div>
-                  
-                      <div class="table-responsive">
-                        <div class="content">
-                          <div class="price-head">
-                            <div class="price-headTitle"></div>
-                  
-                            <!-- Package 1 -->
-                            <div class="price-headItem">
-                              <h6>Web Starter</h6>
-                              <h2 class="yearly_price"><span>from </span> 4,999 zł</h2>
-                              <p>Ideal blogs or e-commerce websites</p>
-                            </div>
-                  
-                            <!-- Package 2 -->
-                            <div class="price-headItem">
-                              <h6>Creative Boost</h6>
-                              <h2 class="yearly_price color-blue5"><span>from </span> 1,999 zł</h2>
-                              <p>Perfect for designing marketing assets</p>
-                            </div>
-                  
-                            <!-- Package 3 -->
-                            <div class="price-headItem bg-gray">
-                              <h6>Ultimate Combo</h6>
-                              <h2 class="yearly_price"><span>from </span> 5,999 zł</h2>
-                              <p>Comprehensive web and social media management</p>
-                              <div class="label">
-                                <img src="assets/imgs/pricing/Label.svg" alt="">
-                              </div>
-                            </div>
-                          </div>
-                          <div class="price-body">
-                            <!-- Feature Rows -->
-                            <div class="price-bodyItems">
-                              <div class="price-bodyTitle">Website Creation</div>
-                              <div class="price-item"><i class="fa-solid fa-check"></i></div>
-                              <div class="price-item"></div>
-                              <div class="price-item bg-gray"><i class="fa-solid fa-check"></i></div>
-                            </div>
-                          
-                            <div class="price-bodyItems">
-                              <div class="price-bodyTitle">Initial SEO Setup</div>
-                              <div class="price-item"><i class="fa-solid fa-check"></i></div>
-                              <div class="price-item"></div>
-                              <div class="price-item bg-gray"><i class="fa-solid fa-check"></i></div>
-                            </div>
-                          
-                            <div class="price-bodyItems">
-                              <div class="price-bodyTitle">Social Media Design</div>
-                              <div class="price-item"></div>
-                              <div class="price-item"><i class="fa-solid fa-check"></i></div>
-                              <div class="price-item bg-gray"><i class="fa-solid fa-check"></i></div>
-                            </div>
-                          
-                            <div class="price-bodyItems">
-                              <div class="price-bodyTitle">Custom Logo Design</div>
-                              <div class="price-item"></div>
-                              <div class="price-item"><i class="fa-solid fa-check"></i></div>
-                              <div class="price-item bg-gray"><i class="fa-solid fa-check"></i></div>
-                            </div>
-                          
-                            <div class="price-bodyItems">
-                              <div class="price-bodyTitle">UI/UX Design</div>
-                              <div class="price-item"></div>
-                              <div class="price-item"><i class="fa-solid fa-check"></i></div>
-                              <div class="price-item bg-gray"><i class="fa-solid fa-check"></i></div>
-                            </div>
-                          
-                            <div class="price-bodyItems">
-                              <div class="price-bodyTitle">Advertising Banners</div>
-                              <div class="price-item"></div>
-                              <div class="price-item"><i class="fa-solid fa-check"></i></div>
-                              <div class="price-item bg-gray"><i class="fa-solid fa-check"></i></div>
-                            </div>
-                          
-                            <div class="price-bodyItems">
-                              <div class="price-bodyTitle">SEO Management</div>
-                              <div class="price-item"></div>
-                              <div class="price-item"></div>
-                              <div class="price-item bg-gray"><i class="fa-solid fa-check"></i></div>
-                            </div>
-                          
-                            <div class="price-bodyItems">
-                              <div class="price-bodyTitle">3-Month Free Support</div>
-                              <div class="price-item"><i class="fa-solid fa-check"></i></div>
-                              <div class="price-item"><i class="fa-solid fa-check"></i></div>
-                              <div class="price-item bg-gray"><i class="fa-solid fa-check"></i></div>
-                            </div>
-                          
-                            <div class="price-bodyItems">
-                              <div class="price-bodyTitle">Flexible Revisions</div>
-                              <div class="price-item"></div>
-                              <div class="price-item"></div>
-                              <div class="price-item bg-gray"><i class="fa-solid fa-check"></i></div>
-                            </div>
-                          
-                            <div class="price-bodyItems">
-                              <div class="price-bodyTitle">Priority Handling</div>
-                              <div class="price-item"><i class="fa-solid fa-check"></i></div>
-                              <div class="price-item"><i class="fa-solid fa-check"></i></div>
-                              <div class="price-item bg-gray"><i class="fa-solid fa-check"></i></div>
-                            </div>
-                          
-                            <div class="price-bodyItems">
-                              <div class="price-bodyTitle">NDA Agreement</div>
-                              <div class="price-item"><i class="fa-solid fa-check"></i></div>
-                              <div class="price-item"><i class="fa-solid fa-check"></i></div>
-                              <div class="price-item bg-gray"><i class="fa-solid fa-check"></i></div>
-                            </div>
-                          </div>
-                  
-                          <div class="price-foot">
-                            <div class="price-footTitle"></div>
-                  
-                            <div class="price-foot-item">
-                              <a href="#0" class="butn butn-md butn-bord butn-rounded">
-                                <div class="d-flex align-items-center">
-                                  <span>Pick This Package</span>
-                                  <span class="icon ml-10"><i class="fa-solid fa-chevron-right"></i></span>
+
+                        <div class="table-responsive">
+                            <div class="content">
+                                <div class="price-head">
+                                    <div class="price-headTitle"></div>
+
+                                    <!-- Package 1 -->
+                                    <div class="price-headItem">
+                                        <h6>Web Starter</h6>
+                                        <h2 class="yearly_price"><span>from </span> 4,999 zł</h2>
+                                        <p>Ideal blogs or e-commerce websites</p>
+                                    </div>
+
+                                    <!-- Package 2 -->
+                                    <div class="price-headItem">
+                                        <h6>Creative Boost</h6>
+                                        <h2 class="yearly_price color-blue5"><span>from </span> 1,999 zł</h2>
+                                        <p>Perfect for designing marketing assets</p>
+                                    </div>
+
+                                    <!-- Package 3 -->
+                                    <div class="price-headItem bg-gray">
+                                        <h6>Ultimate Combo</h6>
+                                        <h2 class="yearly_price"><span>from </span> 5,999 zł</h2>
+                                        <p>Comprehensive web and social media management</p>
+                                        <div class="label">
+                                            <img src="assets/imgs/pricing/Label.svg" alt="">
+                                        </div>
+                                    </div>
                                 </div>
-                              </a>
-                            </div>
-                  
-                            <div class="price-foot-item">
-                              <a href="#0" class="butn butn-md butn-bord butn-rounded">
-                                <div class="d-flex align-items-center">
-                                  <span>Pick This Package</span>
-                                  <span class="icon ml-10"><i class="fa-solid fa-chevron-right"></i></span>
+                                <div class="price-body">
+                                    <!-- Feature Rows -->
+                                    <div class="price-bodyItems">
+                                        <div class="price-bodyTitle">Website Creation</div>
+                                        <div class="price-item"><i class="fa-solid fa-check"></i></div>
+                                        <div class="price-item"></div>
+                                        <div class="price-item bg-gray"><i class="fa-solid fa-check"></i></div>
+                                    </div>
+
+                                    <div class="price-bodyItems">
+                                        <div class="price-bodyTitle">Initial SEO Setup</div>
+                                        <div class="price-item"><i class="fa-solid fa-check"></i></div>
+                                        <div class="price-item"></div>
+                                        <div class="price-item bg-gray"><i class="fa-solid fa-check"></i></div>
+                                    </div>
+
+                                    <div class="price-bodyItems">
+                                        <div class="price-bodyTitle">Social Media Design</div>
+                                        <div class="price-item"></div>
+                                        <div class="price-item"><i class="fa-solid fa-check"></i></div>
+                                        <div class="price-item bg-gray"><i class="fa-solid fa-check"></i></div>
+                                    </div>
+
+                                    <div class="price-bodyItems">
+                                        <div class="price-bodyTitle">Custom Logo Design</div>
+                                        <div class="price-item"></div>
+                                        <div class="price-item"><i class="fa-solid fa-check"></i></div>
+                                        <div class="price-item bg-gray"><i class="fa-solid fa-check"></i></div>
+                                    </div>
+
+                                    <div class="price-bodyItems">
+                                        <div class="price-bodyTitle">UI/UX Design</div>
+                                        <div class="price-item"></div>
+                                        <div class="price-item"><i class="fa-solid fa-check"></i></div>
+                                        <div class="price-item bg-gray"><i class="fa-solid fa-check"></i></div>
+                                    </div>
+
+                                    <div class="price-bodyItems">
+                                        <div class="price-bodyTitle">Advertising Banners</div>
+                                        <div class="price-item"></div>
+                                        <div class="price-item"><i class="fa-solid fa-check"></i></div>
+                                        <div class="price-item bg-gray"><i class="fa-solid fa-check"></i></div>
+                                    </div>
+
+                                    <div class="price-bodyItems">
+                                        <div class="price-bodyTitle">SEO Management</div>
+                                        <div class="price-item"></div>
+                                        <div class="price-item"></div>
+                                        <div class="price-item bg-gray"><i class="fa-solid fa-check"></i></div>
+                                    </div>
+
+                                    <div class="price-bodyItems">
+                                        <div class="price-bodyTitle">3-Month Free Support</div>
+                                        <div class="price-item"><i class="fa-solid fa-check"></i></div>
+                                        <div class="price-item"><i class="fa-solid fa-check"></i></div>
+                                        <div class="price-item bg-gray"><i class="fa-solid fa-check"></i></div>
+                                    </div>
+
+                                    <div class="price-bodyItems">
+                                        <div class="price-bodyTitle">Flexible Revisions</div>
+                                        <div class="price-item"></div>
+                                        <div class="price-item"></div>
+                                        <div class="price-item bg-gray"><i class="fa-solid fa-check"></i></div>
+                                    </div>
+
+                                    <div class="price-bodyItems">
+                                        <div class="price-bodyTitle">Priority Handling</div>
+                                        <div class="price-item"><i class="fa-solid fa-check"></i></div>
+                                        <div class="price-item"><i class="fa-solid fa-check"></i></div>
+                                        <div class="price-item bg-gray"><i class="fa-solid fa-check"></i></div>
+                                    </div>
+
+                                    <div class="price-bodyItems">
+                                        <div class="price-bodyTitle">NDA Agreement</div>
+                                        <div class="price-item"><i class="fa-solid fa-check"></i></div>
+                                        <div class="price-item"><i class="fa-solid fa-check"></i></div>
+                                        <div class="price-item bg-gray"><i class="fa-solid fa-check"></i></div>
+                                    </div>
                                 </div>
-                              </a>
-                            </div>
-                  
-                            <div class="price-foot-item bg-gray">
-                              <a href="#0" class="butn butn-md butn-bg butn-rounded">
-                                <div class="d-flex align-items-center">
-                                  <span>Pick This Package</span>
-                                  <span class="icon ml-10"><i class="fa-solid fa-chevron-right"></i></span>
+
+                                <div class="price-foot">
+                                    <div class="price-footTitle"></div>
+
+                                    <div class="price-foot-item">
+                                        <a href="#0" class="butn butn-md butn-bord butn-rounded">
+                                            <div class="d-flex align-items-center">
+                                                <span>Pick This Package</span>
+                                                <span class="icon ml-10"><i
+                                                        class="fa-solid fa-chevron-right"></i></span>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div class="price-foot-item">
+                                        <a href="#0" class="butn butn-md butn-bord butn-rounded">
+                                            <div class="d-flex align-items-center">
+                                                <span>Pick This Package</span>
+                                                <span class="icon ml-10"><i
+                                                        class="fa-solid fa-chevron-right"></i></span>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div class="price-foot-item bg-gray">
+                                        <a href="#0" class="butn butn-md butn-bg butn-rounded">
+                                            <div class="d-flex align-items-center">
+                                                <span>Pick This Package</span>
+                                                <span class="icon ml-10"><i
+                                                        class="fa-solid fa-chevron-right"></i></span>
+                                            </div>
+                                        </a>
+                                    </div>
                                 </div>
-                              </a>
                             </div>
-                          </div>
                         </div>
-                      </div>
-                  
-                      <div class="botm mt-70">
-                        <span>Not finding a plan that fits your needs? Each of our services can be purchased independently <a href="#0">Contact Us</a></span>
-                      </div>
+
+                        <div class="botm mt-70">
+                            <span>Not finding a plan that fits your needs? Each of our services can be purchased
+                                independently <a href="#0">Contact Us</a></span>
+                        </div>
                     </div>
-                  </section>
-                  
-                  
-                  
-                
+                </section>
+
+
+
+
                 <!-- ==================== End Pricing ==================== -->
 
 
@@ -717,7 +749,10 @@
                                         <div id="collapse1" class="accordion-collapse collapse"
                                             aria-labelledby="heading1" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
-                                                <p>We provide a wide range of services, including branding, design (UI/UX, logos, and social media visuals), website development (portfolios and e-commerce platforms), and growth strategies to boost your business.</p>
+                                                <p>We provide a wide range of services, including branding, design
+                                                    (UI/UX, logos, and social media visuals), website development
+                                                    (portfolios and e-commerce platforms), and growth strategies to
+                                                    boost your business.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -732,7 +767,10 @@
                                         <div id="collapse2" class="accordion-collapse collapse show"
                                             aria-labelledby="heading2" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
-                                                <p>Timelines vary depending on the project scope. For example, branding and design projects may take 1-2 weeks, while website development can take 4-8 weeks. We’ll provide a clear timeline after discussing your requirements.</p>
+                                                <p>Timelines vary depending on the project scope. For example, branding
+                                                    and design projects may take 1-2 weeks, while website development
+                                                    can take 4-8 weeks. We’ll provide a clear timeline after discussing
+                                                    your requirements.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -747,7 +785,8 @@
                                         <div id="collapse3" class="accordion-collapse collapse"
                                             aria-labelledby="heading3" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
-                                                <p>Absolutely! We love helping small businesses and startups grow by offering tailored solutions that fit their budget and goals.
+                                                <p>Absolutely! We love helping small businesses and startups grow by
+                                                    offering tailored solutions that fit their budget and goals.
                                                 </p>
                                             </div>
                                         </div>
@@ -763,7 +802,9 @@
                                         <div id="collapse4" class="accordion-collapse collapse"
                                             aria-labelledby="heading4" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
-                                                <p>Yes, we can design content for your social media platforms like Facebook and Instagram, and also help you strategize and grow your online presence.</p>
+                                                <p>Yes, we can design content for your social media platforms like
+                                                    Facebook and Instagram, and also help you strategize and grow your
+                                                    online presence.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -778,7 +819,9 @@
                                         <div id="collapse5" class="accordion-collapse collapse"
                                             aria-labelledby="heading5" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
-                                                <p>Pricing depends on the complexity and scope of the project. We offer custom quotes based on your specific needs. Contact us for a free consultation to get started!</p>
+                                                <p>Pricing depends on the complexity and scope of the project. We offer
+                                                    custom quotes based on your specific needs. Contact us for a free
+                                                    consultation to get started!</p>
                                             </div>
                                         </div>
                                     </div>
@@ -793,7 +836,8 @@
                                         <div id="collapse6" class="accordion-collapse collapse"
                                             aria-labelledby="heading6" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
-                                                <p>Yes, once the project is complete, you will have full ownership of the designs, website, and other deliverables.
+                                                <p>Yes, once the project is complete, you will have full ownership of
+                                                    the designs, website, and other deliverables.
                                                 </p>
                                             </div>
                                         </div>
@@ -809,7 +853,9 @@
                                         <div id="collapse7" class="accordion-collapse collapse"
                                             aria-labelledby="heading7" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
-                                                <p>Getting started is easy! Simply contact us via email or phone to schedule a free consultation. We’ll discuss your goals and create a plan tailored to your needs.</p>
+                                                <p>Getting started is easy! Simply contact us via email or phone to
+                                                    schedule a free consultation. We’ll discuss your goals and create a
+                                                    plan tailored to your needs.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -937,7 +983,7 @@
                         <div class="col-lg-4">
                             <div class="subscribe md-mb50">
                                 <h6>Contact us for a free consultation
-                                    </h6>
+                                </h6>
                                 <div class="form-group">
                                     <label for="email_subscribe">Email Address</label>
                                     <input id="email_subscribe" type="email" placeholder="Enter your email address"
@@ -991,7 +1037,8 @@
                                 <div class="copy d-flex align-items-center md-mb30">
                                     <div>
                                         <div class="logo" style="border: none;">
-                                            <img src="assets/imgs/wk.pages-logo-white.svg" alt="logo" style="width: 50px;">
+                                            <img src="assets/imgs/wk.pages-logo-white.svg" alt="logo"
+                                                style="width: 50px;">
                                         </div>
                                     </div>
                                     <div class="ml-50">
@@ -1002,10 +1049,11 @@
                             <div class="col-lg-4 d-flex justify-content-end">
                                 <div class="links sub-color d-flex justify-content-between">
                                     <a href="#0" class="active">Home</a>
-                                    <a href="https://www.instagram.com/wk.pages/profilecard/?igsh=a3dmZ3p4Z3J0bHU5">Instagram</a>
+                                    <a
+                                        href="https://www.instagram.com/wk.pages/profilecard/?igsh=a3dmZ3p4Z3J0bHU5">Instagram</a>
                                     <a href="https://www.facebook.com/profile.php?id=61567880623368">Facebook</a>
                                     <a href="#0">Contact Us</a>
-                                  </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -1027,25 +1075,22 @@
 
 
 
-
     <!-- jQuery -->
-    <script src="../common/js/lib/jquery-3.6.0.min.js"></script>
-    <script src="../common/js/lib/jquery-migrate-3.4.0.min.js"></script>
+    <script src="{{ asset('assets/frontend/common/js/lib/jquery-3.6.0.min.js') }}"></script>
+    <script src="{{ asset('assets/frontend/common/js/lib/jquery-migrate-3.4.0.min.js') }}"></script>
 
-    <!-- plugins -->
-    <script src="../common/js/lib/plugins.js"></script>
+    <!-- Plugins -->
+    <script src="{{ asset('assets/frontend/common/js/lib/plugins.js') }}"></script>
 
     <!-- GSAP -->
-    <script src="../common/js/gsap_lib/gsap.min.js"></script>
-    <script src="../common/js/gsap_lib/ScrollSmoother.min.js"></script>
-    <script src="../common/js/gsap_lib/ScrollTrigger.min.js"></script>
-    <script src="../common/js/gsap_lib/SplitText.min.js"></script>
+    <script src="{{ asset('assets/frontend/common/js/gsap_lib/gsap.min.js') }}"></script>
+    <script src="{{ asset('assets/frontend/common/js/gsap_lib/ScrollSmoother.min.js') }}"></script>
+    <script src="{{ asset('assets/frontend/common/js/gsap_lib/ScrollTrigger.min.js') }}"></script>
+    <script src="{{ asset('assets/frontend/common/js/gsap_lib/SplitText.min.js') }}"></script>
 
-    <!-- common scripts -->
-    <script src="../common/js/common_scripts.js"></script>
+    <!-- Common Scripts -->
+    <script src="{{ asset('assets/frontend/common/js/common_scripts.js') }}"></script>
 
-    <!-- custom scripts -->
-    <script src="assets/js/scripts.js"></script>
 
 </body>
 
