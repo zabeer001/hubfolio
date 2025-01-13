@@ -82,7 +82,8 @@
 
             <!-- Logo -->
             <a class="logo" href="#" style="border: none;">
-                <img src="assets/imgs/wk.pages-logo-white.svg" alt="logo" style="width: 75px;">
+                <img src="{{ asset('assets/frontend/wk_pages/assets/imgs/wk.pages-logo-white.svg') }}" alt="logo" style="width: 75px;">
+
             </a>
 
             <!-- navbar links -->
@@ -1037,8 +1038,7 @@
                                 <div class="copy d-flex align-items-center md-mb30">
                                     <div>
                                         <div class="logo" style="border: none;">
-                                            <img src="assets/imgs/wk.pages-logo-white.svg" alt="logo"
-                                                style="width: 50px;">
+                                            <img src="{{ asset('assets/frontend/wk_pages/assets/imgs/wk.pages-logo-white.svg') }}" alt="logo"   style="width: 50px">
                                         </div>
                                     </div>
                                     <div class="ml-50">

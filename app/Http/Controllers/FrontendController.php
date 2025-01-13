@@ -9,6 +9,6 @@ class FrontendController extends Controller
     public function landingPage()
     {
       
-        return view('frontend.landingPage');
+        return view('layouts.frontend.master');
     }
 }
